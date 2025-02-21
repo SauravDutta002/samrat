@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState("");
   const [selectedFilters, setSelectedFilters] = useState([]);
 
-  const backendURL = "http://localhost:5000/bfhl"; // Change this to your deployed URL when hosting
+  const backendURL = "https://samrat-byxb.onrender.com/bfhl"; // Change this to your deployed URL when hosting
 
   const handleSubmit = async () => {
     setError("");
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>BFHL Data Processor</h1>
+      <h1>BFHL Data </h1>
 
       <textarea
         rows="5"
